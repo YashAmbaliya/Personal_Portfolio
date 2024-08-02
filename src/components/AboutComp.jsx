@@ -1,6 +1,5 @@
 import aboutImage from "../assets/intro_Img_3.jpg";
 import { ABOUT_TEXT } from "../constant";
-
 import { motion } from "framer-motion";
 
 const AboutComp = () => {
