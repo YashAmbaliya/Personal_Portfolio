@@ -13,7 +13,7 @@ const HeroComp = () => {
 		},
 	});
 
-	const cvPdfFile = `${window.location.origin}/CV.pdf`;
+	const cvPdfFile = `${window.location.origin}/dist/CV.pdf`;
 
 	const downloadCV = () => {
 		const link = document.createElement("a");
