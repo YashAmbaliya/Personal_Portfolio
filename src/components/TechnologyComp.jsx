@@ -1,9 +1,10 @@
-import { RiReactjsLine } from "react-icons/ri";
+// import { RiReactjsLine } from "react-icons/ri";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { SiRedux } from "react-icons/si";
+// import { SiRedux } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { FaBootstrap } from "react-icons/fa6";
 import { FaVuejs } from "react-icons/fa";
+import { SiNuxtdotjs } from "react-icons/si";
 
 import { motion } from "framer-motion";
 
@@ -38,14 +39,14 @@ const TechnologyComp = () => {
 					transition={{ duration: 1.5 }}
 					className="flex flex-wrap items-center justify-center gap-4"
 				>
-					<motion.div
+					{/* <motion.div
 						variants={iconVariant(2.5)}
 						initial="initial"
 						animate="animate"
 						className="rounded-2xl border-4 border-neutral-800 p-4 cursor-pointer"
 					>
 						<RiReactjsLine className="text-7xl text-cyan-400" />
-					</motion.div>
+					</motion.div> */}
 					<motion.div
 						variants={iconVariant(3.3)}
 						initial="initial"
@@ -55,13 +56,21 @@ const TechnologyComp = () => {
 						<FaVuejs className="text-7xl text-green-600" />
 					</motion.div>
 					<motion.div
+						variants={iconVariant(3.3)}
+						initial="initial"
+						animate="animate"
+						className="rounded-2xl border-4 border-neutral-800 p-4 cursor-pointer"
+					>
+						<SiNuxtdotjs className="text-7xl text-green-600" />
+					</motion.div>
+					{/* <motion.div
 						variants={iconVariant(5)}
 						initial="initial"
 						animate="animate"
 						className="rounded-2xl border-4 border-neutral-800 p-4 cursor-pointer"
 					>
 						<SiRedux className="text-7xl text-purple-600" />
-					</motion.div>
+					</motion.div> */}
 					<motion.div
 						variants={iconVariant(6.1)}
 						initial="initial"
