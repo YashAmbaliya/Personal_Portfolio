@@ -39,7 +39,7 @@ const ExperienceComp = () => {
 										{experience.company}
 									</span>
 								</h6>
-								<p className="mb-5 text-neutral-400">
+								<p className="mb-5 text-neutral-400 whitespace-pre-line">
 									{experience.description}
 								</p>
 								<div className="w-full flex items-start justify-start gap-2 flex-wrap">

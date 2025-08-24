@@ -16,25 +16,45 @@ import project1_8 from "../assets/project_img_1_8.png";
 
 import project2_1 from "../assets/project_img_2_1.png";
 
-export const HERO_CONTENT = `I am a passionate frontend web developer with a keen eye for crafting robust and scalable web applications. With six months of hands-on experience in Vue.js and Vuex, I have developed a strong foundation in frontend development. Through self-directed learning, I have also gained proficiency in React.js and Redux, building upon my skills through personal practice projects. I am eager to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate frontend web developer with 1.5+ years of experience, including six months of training and internship, focused on crafting robust and scalable web applications. With hands-on expertise in Vue.js, Nuxt.js, and Vuex, I have built a strong foundation in frontend development, while also gaining knowledge of React.js and Redux through practice projects. Skilled in Tailwind CSS, Bootstrap, Material UI, Nuxt UI, and Vuetify, I enjoy building reusable components and writing clean, optimized code. I am eager to keep learning new technologies and contribute to innovative solutions that enhance user experience and drive business growth.`;
 
 export const ABOUT_TEXT =
-	"I am a dedicated and versatile frontend web developer with a proven track record of building efficient and user-centric web applications. With 6 months of industry experience, I have honed my skills in Vue.js and React.js, and am also independently learning Node.js and Express.js, along with database technologies like MySQL and MongoDB. My passion for crafting exceptional digital experiences is fueled by a constant drive to explore and adopt new frameworks, tools, and best practices. I have a solid foundation in frontend development with Vue.js and React.js, and am capable of managing state with Vuex and Redux libraries. I am proficient in design libraries like Tailwind CSS and Bootstrap. My ability to effectively manage version control using Git and GitHub ensures seamless collaboration and project management. I thrive in fast-paced, collaborative environments and am eager to contribute my expertise to innovative projects.";
+	"As a dedicated and versatile Frontend Developer with 1.5+ years of experience, including 6 months of training and internship, I have a proven record of building scalable, efficient, and user-centric web applications. During this time, I strengthened my expertise in Vue.js and Nuxt.js while also gaining knowledge of React.js and Redux through practice projects, giving me a strong foundation in frontend development, state management, and modern JavaScript practices. I am proficient in UI frameworks and libraries such as Tailwind CSS, Bootstrap, Material UI, Nuxt UI, and Vuetify, and enjoy creating reusable components, utility classes, and clean, optimized code. My experience covers CSR (Client-Side Rendering) and SSR (Server-Side Rendering), providing a strong understanding of rendering strategies for performance and SEO optimization, along with familiarity in Nuxt Nitro for creating server-side APIs. Skilled in debugging, DOM manipulation, and browser developer tools, I excel at resolving issues to enhance application stability and performance. I thrive in collaborative environments, take pride in problem-solving, and actively explore new frameworks and best practices to stay current with industry trends. My goal is to continuously refine my expertise while contributing to innovative projects that drive business growth and deliver exceptional user experiences.";
 
 export const EXPERIENCES = [
 	{
-		year: "January-2024 - July-2024",
-		role: "Frontend Web Developer",
-		company: "Infinity Brains",
-		description: `I was responsible for the entire frontend development of several social media-like web projects, including designing, API integration, data management, and bug fixing. My work spanned projects like Restroworld, a social media platform for restaurants, where I redesigned the posts feed and implemented payment gateways using CashFree and PayUMoney. Additionally, I completely redesigned their official website, Redjinni, ensuring responsiveness across devices and incorporating engaging animations using Animate.css on multiple projects.`,
+		year: "October-2024 - Present",
+		role: "Frontend Developer",
+		company: "Private Workspace, Kosad, Surat, Gujarat",
+		description: `I work in a private office focused on freelance clients, delivering high-quality, custom web solutions across multiple projects and domains. My responsibilities include building responsive UIs, integrating APIs, and implementing state management with Pinia.\n
+- NOURIA’H: A fully responsive web platform for chefs and restaurants to create dynamic, SEO-friendly live menus with a CMS for managing and publishing content. Menus are optimized for Google search visibility and tailored for restaurants, chefs, and food truck owners.\n
+- Modelrecs: A social media platform for models and modeling enthusiasts, enabling users to upload photos and videos, interact through posts, comments, likes, shares, and follow other models. The project is currently under development.`,
 		technologies: [
-			"Vue.js",
-			"Vuex",
+			"Vue.js 3",
+			"Nuxt.js 3",
+			"Pinia Store",
 			"Tailwind CSS",
-			"Bootstrap",
-			"Javascript",
+			"Material Tailwind",
+			"Nuxt UI",
+			"JavaScript",
 			"HTML",
 			"CSS",
+		],
+	},
+	{
+		year: "January-2024 - July-2024",
+		role: "Frontend Developer Intern",
+		company: "Infinity Brains, Vesu, Surat, Gujarat",
+		description: `Worked on in-house products such as Restroworld, Garba Jockey, Redprix, and an HRMS mobile application, primarily focused on marketing and digital solutions. Restroworld: A social media platform for restaurants to enhance engagement, where I redesigned the posts feed and implemented payment gateways (Cashfree, PayUMoney) after research and evaluation. Redjinni: Completely redesigned the official company website by creating all web pages and custom components, ensuring full responsiveness across mobile, tablet, and desktop devices. General: Handled end-to-end frontend development, including UI design, API integration, backend data management, bug fixing, and adding new functionalities across projects.`,
+		technologies: [
+			"Vue.js 2",
+			"Vuex Store",
+			"Tailwind CSS",
+			"Bootstrap 5",
+			"JavaScript",
+			"HTML",
+			"CSS",
+			"Node.js",
 		],
 	},
 ];
