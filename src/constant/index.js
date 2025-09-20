@@ -8,6 +8,7 @@ export const HERO_CONTENT = `I am a passionate frontend web developer with 1.5+ 
 export const ABOUT_TEXT =
 	"As a dedicated and versatile Frontend Developer with 1.5+ years of experience, including 6 months of training and internship, I have a proven record of building scalable, efficient, and user-centric web applications. During this time, I strengthened my expertise in Vue.js and Nuxt.js while also gaining knowledge of React.js and Redux through practice projects, giving me a strong foundation in frontend development, state management, and modern JavaScript practices. I am proficient in UI frameworks and libraries such as Tailwind CSS, Bootstrap, Material UI, Nuxt UI, and Vuetify, and enjoy creating reusable components, utility classes, and clean, optimized code. My experience covers CSR (Client-Side Rendering) and SSR (Server-Side Rendering), providing a strong understanding of rendering strategies for performance and SEO optimization, along with familiarity in Nuxt Nitro for creating server-side APIs. Skilled in debugging, DOM manipulation, and browser developer tools, I excel at resolving issues to enhance application stability and performance. I thrive in collaborative environments, take pride in problem-solving, and actively explore new frameworks and best practices to stay current with industry trends. My goal is to continuously refine my expertise while contributing to innovative projects that drive business growth and deliver exceptional user experiences.";
 
+// Experienced data
 export const EXPERIENCES = [
 	{
 		year: "October-2024 - Present",
@@ -46,6 +47,7 @@ export const EXPERIENCES = [
 	},
 ];
 
+// Project data
 export const PROJECTS = [
 	{
 		title: "Modelrecs",
@@ -96,6 +98,7 @@ export const PROJECTS = [
 	},
 ];
 
+// Contact data
 export const CONTACT = {
 	address: "265, Santoshi krupa Soc., Bapa Sitaram Chowk, Katargam, Surat.",
 	phoneNo: "+91 9925082857",
