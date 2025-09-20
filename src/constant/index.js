@@ -1,20 +1,7 @@
-import project1 from "../assets/project_img_1.png";
-import project2 from "../assets/project_img_2.png";
-import project3 from "../assets/project_img_3.png";
-import project4 from "../assets/project_img_4.png";
-import project5 from "../assets/project_img_5.png";
-import project6 from "../assets/project_img_6.png";
-
-import project1_1 from "../assets/project_img_1_1.png";
-import project1_2 from "../assets/project_img_1_2.png";
-import project1_3 from "../assets/project_img_1_3.png";
-import project1_4 from "../assets/project_img_1_4.png";
-import project1_5 from "../assets/project_img_1_5.png";
-import project1_6 from "../assets/project_img_1_6.png";
-import project1_7 from "../assets/project_img_1_7.png";
-import project1_8 from "../assets/project_img_1_8.png";
-
 import project2_1 from "../assets/project_img_2_1.png";
+
+import projectImg1 from "../assets/latest/project_img_1.png";
+import projectImg2 from "../assets/latest/project_img_2.png";
 
 export const HERO_CONTENT = `I am a passionate frontend web developer with 1.5+ years of experience, including six months of training and internship, focused on crafting robust and scalable web applications. With hands-on expertise in Vue.js, Nuxt.js, and Vuex, I have built a strong foundation in frontend development, while also gaining knowledge of React.js and Redux through practice projects. Skilled in Tailwind CSS, Bootstrap, Material UI, Nuxt UI, and Vuetify, I enjoy building reusable components and writing clean, optimized code. I am eager to keep learning new technologies and contribute to innovative solutions that enhance user experience and drive business growth.`;
 
@@ -27,8 +14,8 @@ export const EXPERIENCES = [
 		role: "Frontend Developer",
 		company: "Private Workspace, Kosad, Surat, Gujarat",
 		description: `I work in a private office focused on freelance clients, delivering high-quality, custom web solutions across multiple projects and domains. My responsibilities include building responsive UIs, integrating APIs, and implementing state management with Pinia.\n
-- NOURIA’H: A fully responsive web platform for chefs and restaurants to create dynamic, SEO-friendly live menus with a CMS for managing and publishing content. Menus are optimized for Google search visibility and tailored for restaurants, chefs, and food truck owners.\n
-- Modelrecs: A social media platform for models and modeling enthusiasts, enabling users to upload photos and videos, interact through posts, comments, likes, shares, and follow other models. The project is currently under development.`,
+		- Modelrecs: A social media platform for models and modeling enthusiasts, enabling users to upload photos and videos, interact through posts, comments, likes, shares, and follow other models. The project is currently under development.\n
+		- NOURI'AH: A fully responsive web platform for chefs and restaurants to create dynamic, SEO-friendly live menus with a CMS for managing and publishing content. Menus are optimized for Google search visibility and tailored for restaurants, chefs, and food truck owners.`,
 		technologies: [
 			"Vue.js 3",
 			"Nuxt.js 3",
@@ -59,27 +46,40 @@ export const EXPERIENCES = [
 	},
 ];
 
-const projectImageArray_1 = [
-	project1,
-	project2,
-	project3,
-	project4,
-	project5,
-	project6,
-];
-
-const projectImageArray_2 = [
-	project1_1,
-	project1_2,
-	project1_3,
-	project1_4,
-	project1_5,
-	project1_6,
-	project1_7,
-	project1_8,
-];
-
 export const PROJECTS = [
+	{
+		title: "Modelrecs",
+		image: projectImg2,
+		description:
+			"A social media platform designed for models and modeling enthusiasts. The platform enables users to upload photos and videos to showcase their passion for modeling. It includes core social features such as post creation, comments, likes, and shares, along with the ability to follow models and engage with their content. The project is currently under development and aims to foster a creative community for modeling enthusiasts.",
+		technologies: [
+			"HTML",
+			"CSS",
+			"JavaScript",
+			"Vue Js 3",
+			"Nuxt Js 3",
+			"Pinia Store",
+			"Tailwind CSS",
+			"Material Tailwind",
+			"Nuxt UI",
+		],
+	},
+	{
+		title: "Nouriah",
+		image: projectImg1,
+		description:
+			"A web project with a fully responsive user interface and customized components. The main goal is to provide a facility for chefs and restaurants to create live, dynamic food menus. Menus are fully dynamic with on-page SEO implementation for better visibility. Includes a CMS for users to create, update, and publish menus on the same domain. Published menus are searchable on Google, making them easily discoverable. Menu themes are tailored for chefs, restaurants, and food truck owners who want their menus live and accessible online.",
+		technologies: [
+			"HTML",
+			"CSS",
+			"JavaScript",
+			"Vue Js 3",
+			"Nuxt Js 3",
+			"Pinia Store",
+			"Tailwind CSS",
+			"Material Tailwind",
+		],
+	},
 	{
 		title: "Personal Portfolio WebSite",
 		image: project2_1,
@@ -92,42 +92,6 @@ export const PROJECTS = [
 			"CSS",
 			"JavaScript",
 			"Framer Motion",
-		],
-	},
-	{
-		title: "Movie Streaming Web-App",
-		image: projectImageArray_1,
-		description:
-			"The basic online movie streaming application using the MERN stack, incorporating React.js for the frontend, Node.js and Express.js for the backend, MongoDB Atlas as the database, and Mongoose as the ODM. Firebase was utilized for media file storage. The application features user authentication, allowing users to watch movies, while administrators can manage movies, users, and upload media content.",
-		technologies: [
-			"React Js",
-			"Context API",
-			"Node Js",
-			"Express Js",
-			"MongoDB",
-			"Mongoose",
-			"Firebase",
-			"HTML",
-			"CSS",
-			"JavaScript",
-		],
-	},
-	{
-		title: "Admin Dashboard Web-App",
-		image: projectImageArray_2,
-		description:
-			"The robust admin panel provides comprehensive control over the movie streaming platform. Administrators can efficiently manage user accounts, curate movie content by adding, editing, and deleting movies and their associated details. The platform also enables administrators to create and manage various movie lists, catering to different user preferences.",
-		technologies: [
-			"React Js",
-			"Context API",
-			"Node Js",
-			"Express Js",
-			"MongoDB",
-			"Mongoose",
-			"Firebase",
-			"HTML",
-			"CSS",
-			"JavaScript",
 		],
 	},
 ];

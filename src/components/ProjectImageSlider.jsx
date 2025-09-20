@@ -19,13 +19,13 @@ const ProjectImageSlider = ({ images }) => {
 				<img
 					src={images}
 					alt="Project-Image"
-					className="mb-6 rounded w-full h-[12rem] min-[530px]:h-auto lg:w-[93%]"
+					className="rounded w-full h-[12rem] min-[530px]:h-auto lg:w-[93%] object-cover"
 				/>
 			) : (
 				<img
 					src={images[currentImageIndex]}
 					alt="Project-Image"
-					className="mb-6 rounded w-full h-[12rem] min-[530px]:h-auto lg:w-[93%]"
+					className="rounded w-full h-[12rem] min-[530px]:h-auto lg:w-[93%] object-cover"
 				/>
 			)}
 		</>
