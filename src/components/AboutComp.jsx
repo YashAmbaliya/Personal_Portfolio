@@ -18,7 +18,7 @@ const AboutComp = () => {
 					>
 						<div className="flex items-center justify-center">
 							<img
-								className="rounded-2xl w-auto lg:w-3/4"
+								className="rounded-2xl w-auto lg:w-3/5"
 								src={aboutImage}
 								alt="About_Image"
 							/>
