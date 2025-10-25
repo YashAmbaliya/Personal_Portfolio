@@ -1,7 +1,7 @@
 import project2_1 from "../assets/project_img_2_1.png";
 
 import projectImg1 from "../assets/latest/project_img_1.png";
-import projectImg2 from "../assets/latest/project_img_2.png";
+import projectImg4 from "../assets/latest/project_img_4.png";
 
 export const HERO_CONTENT = `I am a passionate frontend web developer with 1.5+ years of experience, including six months of training and internship, focused on crafting robust and scalable web applications. With hands-on expertise in Vue.js, Nuxt.js, and Vuex, I have built a strong foundation in frontend development, while also gaining knowledge of React.js and Redux through practice projects. Skilled in Tailwind CSS, Bootstrap, Material UI, Nuxt UI, and Vuetify, I enjoy building reusable components and writing clean, optimized code. I am eager to keep learning new technologies and contribute to innovative solutions that enhance user experience and drive business growth.`;
 
@@ -51,7 +51,7 @@ export const EXPERIENCES = [
 export const PROJECTS = [
 	{
 		title: "Modelrecs",
-		image: projectImg2,
+		image: projectImg4,
 		description:
 			"A social media platform designed for models and modeling enthusiasts. The platform enables users to upload photos and videos to showcase their passion for modeling. It includes core social features such as post creation, comments, likes, and shares, along with the ability to follow models and engage with their content. The project is currently under development and aims to foster a creative community for modeling enthusiasts.",
 		technologies: [
